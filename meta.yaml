@@ -1,0 +1,20 @@
+package:
+  name: python-pcl
+  version: "0.2"
+
+source:
+  git_rev: 0.2
+  git_url: http://github.com/jaycode/python-pcl
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - cython
+  run:
+    - cython
+
+about:
+  home: http://github.com/strawlab/python-pcl
+  license: GPL2
